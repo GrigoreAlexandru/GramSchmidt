@@ -3,7 +3,8 @@ import java.util.ArrayList;
 import static java.lang.Math.sqrt;
 
 public class Vector {
-    private final double x, y, lungime;
+    private final double x, y;
+    public final double lungime;
 
     public Vector(double x, double y) {
         this.y = y;

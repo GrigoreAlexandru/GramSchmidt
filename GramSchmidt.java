@@ -15,7 +15,8 @@ public class GramSchmidt {
 
     private static void calculeazaOrtonormali() {
         for (Vector vector : vectoriOrtogonali) {
-            vectoriOrtonormali.add(vector.getOrtonormal());
+            if (vector.lungime > 1)
+                vectoriOrtonormali.add(vector.getOrtonormal());
         }
     }
 
